@@ -1,0 +1,15 @@
+.navComponent {
+    flex-direction: column;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1.75fr;
+    grid-auto-columns: 1fr;
+  }
+  
+  .navContent {
+    grid-column-gap: 3rem;
+    grid-row-gap: 1.25rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1.75fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
