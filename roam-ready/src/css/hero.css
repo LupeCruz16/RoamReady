@@ -1,0 +1,46 @@
+.heroContent {
+    width: 100%;
+    max-width: 90rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.heroComponent {
+    position: relative;
+}
+
+.heroContent-Left {
+    position: absolute;
+    top: 0;
+    left: 10;
+    z-index: 10;
+    background-color: var(--bg-300);
+    border-radius: 5px;
+}
+
+.nextAdventureButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--primary-100);
+}
+  
+.nextAdventureButtonText {
+    font-weight: bold;
+    color: var(--primary-300);
+    background-color: var(--primary-100);
+}
+
+.heroVideoWrapper {
+    align-items: end;
+    position: relative;
+}
+
+.heroVideoWrapper video{
+    object-fit: cover;
+    border-radius: 5px;
+}
