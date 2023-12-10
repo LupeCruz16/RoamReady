@@ -14,13 +14,13 @@ function HeroSection () {
                             </div>
                             <div className = "paddingS"></div>
                             <div className="getStartedButton">
-                            <a
-                                href="somewhere.com"
-                                rel="noopener noreferrer"
-                                className = "getStartedLink"
-                                >
-                                <div className="textSizeS textColor-Secondary">Get Started</div>
-                            </a>
+                                <a
+                                    href="somewhere.com"
+                                    rel="noopener noreferrer"
+                                    className = "getStartedLink"
+                                    >
+                                    <div className="textSizeS textColor-Secondary">Get Started</div>
+                                </a>
                             </div>
                         </div>
                     </div>

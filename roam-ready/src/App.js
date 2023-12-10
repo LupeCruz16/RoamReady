@@ -3,6 +3,7 @@ import './css/common.css'
 import Navigation from './js/NavigationBar.js';
 import HeroSection from './js/HeroSection.js';
 import OurMission from './js/OurMission.js';
+import GettingStarted from './js/GettingStarted.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navigation />
         <HeroSection />
         <OurMission />
+        <GettingStarted />
       </main>
     </div>
 
