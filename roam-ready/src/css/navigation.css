@@ -1,7 +1,5 @@
 .navComponent {
   z-index: 10000;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
   position: fixed;
   top: 0%;
   bottom: auto;
@@ -11,27 +9,26 @@
   
 .navContent {
   width: 100%;
-  max-width: 90rem;
+  max-width: 90%;
   justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   display: flex;
 }
 
 .navContent-Left {
-  gap: 2.5rem;
-  display: flex;
   flex-flow: row;
   align-items: center;
 }
 
+.navContent-Left, .navContent-Right {
+  gap: 2.5vw;
+  display: flex;
+}
+
 .imageWrapper {
   flex: 1; 
-  max-width: 5rem;
-  max-height: 5rem;
+  max-width: 5vw;
+  max-height: 5vw;
 }
 
 .imageWrapper img {
@@ -43,17 +40,9 @@
 .navTextElement {
   font-weight: 500;
   text-decoration: none;
-  color: var(--primary-100);
+  color: var(--text-100);
 }
 
-.signInButton {
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: var(--primary-100);
-}
-
-.signInButtonText {
-  font-weight: bold;
-  color: var(--primary-300);
-  background-color: var(--primary-100);
+.signUpText {
+  color: var(--primary-100)
 }

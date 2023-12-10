@@ -1,15 +1,11 @@
 :root {
     /* Color Variables */
-    --primary-100: #2C3E50;
-    --primary-200: #57687c;
-    --primary-300: #b4c7dd;
-    --accent-100: #F7CAC9;
-    --accent-200: #926b6a;
-    --text-100: #333333;
-    --text-200: #5c5c5c;
-    --bg-100: #F2F2F2;
-    --bg-200: #e8e8e8;
-    --bg-300: #bfbfbf;
+    --primary-100: #823A55;
+    --primary-200: #A1ACBD;
+    --text-100: #000000;
+    --text-200: #ffffff;
+    --bg-100: #FBFBFB;
+    --bg-200: #3D4756;
 
     /* Font Variables */
     --font-primary: 'Open Sans', sans-serif;
