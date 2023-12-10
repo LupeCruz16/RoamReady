@@ -27,7 +27,8 @@ function GettingStarted () {
                 <div className = "largeContainer">
                     <div className = "paddingSection-L">
                         <div className = "gettingStartedContent ">
-                            <div className = "textSizeL textColor-Secondary">Lets Get Started</div>
+                            <div className = "textSizeL textColor-Secondary">Let's Get Started</div>
+                            <div className = "paddingXS"></div>
                             <div className="startinSecRandomizeButton">
                                 <a
                                     href="somewhere.com"
