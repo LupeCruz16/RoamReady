@@ -4,6 +4,7 @@ import Navigation from './js/NavigationBar.js';
 import HeroSection from './js/HeroSection.js';
 import OurMission from './js/OurMission.js';
 import GettingStarted from './js/GettingStarted.js'
+import Recommendations from './js/Recommendations.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <OurMission />
         <GettingStarted />
+        <Recommendations />
       </main>
     </div>
 

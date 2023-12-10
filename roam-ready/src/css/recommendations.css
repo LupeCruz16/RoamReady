@@ -1,0 +1,28 @@
+.recommendationsSection {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommendationContent {
+    width: 100%;
+}
+
+.recommendationsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5vw;
+}
+
+.recommendation {
+    width: 20vw;
+}
+
+.recImage {
+    object-fit: cover;
+    width: 20vw;
+    height: 40vw;
+    border-radius: 0.5vw;;
+}
