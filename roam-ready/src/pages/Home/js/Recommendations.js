@@ -1,7 +1,7 @@
-import '../css/constants.css'
-import '../css/common.css'
 import '../css/recommendations.css'
-import { canada, italy, greece } from './images.js';
+import canada from '../../../assets/images/canada.jpg'
+import italy from '../../../assets/images/italy.jpg'
+import greece from '../../../assets/images/greece.webp'
 
 function Recommendations () {
     return (

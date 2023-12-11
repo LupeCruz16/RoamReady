@@ -1,11 +1,12 @@
-import './App.css';
-import './css/common.css'
-import Navigation from './js/NavigationBar.js';
-import HeroSection from './js/HeroSection.js';
-import OurMission from './js/OurMission.js';
-import Footer from './js/Footer.js';
-import GettingStarted from './js/GettingStarted.js'
-import Recommendations from './js/Recommendations.js';
+import './globalCSS/App.css';
+import './globalCSS/common.css'
+import './globalCSS/constants.css'
+import Navigation from './components/NavigationBar.js';
+import HeroSection from './pages/Home/js/HeroSection.js';
+import OurMission from './pages/Home/js/OurMission.js';
+import Footer from './pages/Home/js/Footer.js';
+import GettingStarted from './pages/Home/js/GettingStarted.js'
+import Recommendations from './pages/Home/js/Recommendations.js';
 
 function App() {
   return (

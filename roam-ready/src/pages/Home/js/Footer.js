@@ -1,7 +1,5 @@
-import '../css/constants.css'
-import '../css/common.css'
 import '../css/footer.css'
-import { logo } from './images.js';
+import logo from '../../../assets/images/Logo2.png'
 
 function Footer () {
     return (

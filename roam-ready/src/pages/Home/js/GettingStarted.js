@@ -1,5 +1,3 @@
-import '../css/constants.css'
-import '../css/common.css'
 import '../css/gettingStarted.css'
 
 function GettingStarted () {

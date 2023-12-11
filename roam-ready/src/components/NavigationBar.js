@@ -1,7 +1,7 @@
-import '../css/constants.css'
-import '../css/common.css'
-import '../css/navigation.css'
-import { logo } from './images.js';
+import '../globalCSS/constants.css'
+import '../globalCSS/common.css'
+import './navigation.css'
+import logo from '../assets/images/Logo2.png'
 
 function Navigation () {
     return (

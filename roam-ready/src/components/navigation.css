@@ -1,6 +1,6 @@
 .navComponent {
   z-index: 10000;
-  position: fixed;
+  position: absolute;
   top: 0%;
   bottom: auto;
   left: 0%;
