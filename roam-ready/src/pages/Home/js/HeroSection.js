@@ -1,3 +1,4 @@
+import SmallButton from '../../../components/Buttons/SmallButton.js'
 import '../css/hero.css'
 
 function HeroSection () {
@@ -11,15 +12,11 @@ function HeroSection () {
                                 Randomize your next travel getaway
                             </div>
                             <div className = "paddingS"></div>
-                            <div className="getStartedButton">
-                                <a
-                                    href="somewhere.com"
-                                    rel="noopener noreferrer"
-                                    className = "getStartedLink"
-                                    >
-                                    <div className="textSizeS textColor-Secondary">Get Started</div>
-                                </a>
-                            </div>
+                            <SmallButton 
+                            href = 'somewhere.com'
+                            buttonText = 'Get Started'
+                            backgroundColor = 'var(--primary-100)'
+                            />
                         </div>
                     </div>
                 </div>               

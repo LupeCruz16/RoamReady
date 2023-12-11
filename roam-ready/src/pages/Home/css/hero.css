@@ -34,15 +34,3 @@
     position: relative;
     z-index: 1;
 }
-
-.getStartedButton {
-    background-color: var(--primary-100);
-    text-decoration: none;
-    border-radius: 0.5vw;
-    width: 12%;
-    padding: 0.5vw;
-}
-
-.getStartedLink {
-    text-decoration: none;
-}

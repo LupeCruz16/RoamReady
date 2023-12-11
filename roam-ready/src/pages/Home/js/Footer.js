@@ -1,3 +1,4 @@
+import XSmallButton from '../../../components/Buttons/XSmallButton.js'
 import '../css/footer.css'
 import logo from '../../../assets/images/Logo2.png'
 
@@ -32,15 +33,11 @@ function Footer () {
                             <div className = "footerColumnLast">
                                 <div className = "textSizeS">Save your travel inspirations</div>
                                 <div className = "paddingS"></div>
-                                <div className="signUpButton">
-                                    <a
-                                        href="somewhere.com"
-                                        rel="noopener noreferrer"
-                                        className = "signUpLink"
-                                        >
-                                        <div className="textSizeXS textColor-Secondary">Sign&nbsp;Up</div>
-                                    </a>
-                                </div>
+                                <XSmallButton 
+                                href = 'somewhere.com'
+                                buttonText= 'Sign Up'
+                                backgroundColor= 'var(--primary-100)'
+                                />
                             </div>
                         </div>
                     </div>

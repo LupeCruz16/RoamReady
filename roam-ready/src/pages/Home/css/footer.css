@@ -36,17 +36,3 @@
     width: 35%;
     height: 10vw;
 }
-
-.signUpButton {
-    background-color: var(--primary-100);
-    text-decoration: none;
-    border-radius: 0.5vw;
-    width: 30%;
-    padding: 0.2vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.signUpLink {
-    text-decoration: none;
-}

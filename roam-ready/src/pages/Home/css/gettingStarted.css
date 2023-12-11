@@ -19,15 +19,3 @@
     z-index: 1;
     margin-bottom: 5vw;
 }
-
-.startinSecRandomizeButton {
-    background-color: var(--primary-200);
-    border-radius: 0.5vw;
-    width: 20%;
-    padding: 0.5vw;
-}
-
-.randomizeButtonText {
-    text-decoration: none;
-}
-  

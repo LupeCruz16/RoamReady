@@ -14,10 +14,12 @@ function Recommendations () {
                             <div className = "paddingS"></div>
                             <div className = "recommendationsList">
                                 <div className = "recommendation">
-                                    <img src = {canada} 
-                                    className = "recImage"
-                                    loading = "lazy"
-                                    alt = "Canada"/>
+                                    <img src = {canada} className = "recImage" loading = "lazy" alt = "Canada"/>
+                                    <div className="overlay">
+                                        <div className="textSizeS textColor-Secondary">Ontario, Canada</div>
+                                        <div className = "paddingS"></div>
+                                        <button className="overlayButton">Explore</button>
+                                    </div>
                                 </div>
                                 <div className = "recommendation">
                                     <img src = {italy} 

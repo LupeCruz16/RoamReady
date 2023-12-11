@@ -1,3 +1,4 @@
+import SmallButton from '../../../components/Buttons/SmallButton.js'
 import '../css/gettingStarted.css'
 
 function GettingStarted () {
@@ -27,15 +28,11 @@ function GettingStarted () {
                         <div className = "gettingStartedContent ">
                             <div className = "textSizeL textColor-Secondary">Let's Get Started</div>
                             <div className = "paddingXS"></div>
-                            <div className="startinSecRandomizeButton">
-                                <a
-                                    href="somewhere.com"
-                                    rel="noopener noreferrer"
-                                    className = "randomizeButtonText textColor-Secondary"
-                                    >
-                                    <div className="textSizeS textColor-Secondary">Randomize my trip</div>
-                                </a>
-                            </div>
+                            <SmallButton 
+                            href = 'somewhere.com'
+                            buttonText= 'Randomize my trip'
+                            backgroundColor= 'var(--primary-200)'
+                            />
                         </div>
                     </div>
                 </div>
