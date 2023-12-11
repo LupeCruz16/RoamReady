@@ -1,28 +1,22 @@
 import './globalCSS/App.css';
-import './globalCSS/common.css'
-import './globalCSS/constants.css'
-import Navigation from './components/NavigationBar.js';
-import HeroSection from './pages/Home/js/HeroSection.js';
-import OurMission from './pages/Home/js/OurMission.js';
-import Footer from './pages/Home/js/Footer.js';
-import GettingStarted from './pages/Home/js/GettingStarted.js'
-import Recommendations from './pages/Home/js/Recommendations.js';
+import './globalCSS/common.css';
+import './globalCSS/constants.css';
+import Home from './pages/Home/js/Home.js';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className = "App">
+    <div className="App">
       <header className="App-header">
       </header>
-      <main className = "App-main">
-        <Navigation />
-        <HeroSection />
-        <OurMission />
-        <GettingStarted />
-        <Recommendations />
-        <Footer />
+      <main className="App-main">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
       </main>
     </div>
-
   );
 }
 

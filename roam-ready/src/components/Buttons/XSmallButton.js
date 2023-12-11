@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function XSmallButton({ href, buttonText, backgroundColor }) {
     const buttonStyle = {
         backgroundColor: backgroundColor,
@@ -15,13 +17,9 @@ function XSmallButton({ href, buttonText, backgroundColor }) {
 
     return (
       <div style = {buttonStyle}>
-        <a
-          href={href}
-          rel="noopener noreferrer"
-          style = { linkStyle }
-        >
+        <Link to = {href} rel="noopener noreferrer" style = { linkStyle } >
           <div className="textSizeXS textColor-Secondary">{buttonText}</div>
-        </a>
+        </Link>
       </div>
     );
   }
