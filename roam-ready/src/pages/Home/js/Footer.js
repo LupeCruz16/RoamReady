@@ -1,5 +1,6 @@
-import XSmallButton from '../../../components/Buttons/XSmallButton.js'
 import '../css/footer.css'
+import { Link } from 'react-router-dom';
+import XSmallButton from '../../../components/Buttons/XSmallButton.js'
 import logo from '../../../assets/images/Logo2.png'
 
 function Footer () {
@@ -11,12 +12,9 @@ function Footer () {
                         <div className = "footerContent textColor-Secondary">
                             <div className = "footerColumn">
                                 <div className = "footerImageWrapper textAlign-Left">
-                                    <img
-                                    href = "#home"
-                                    src={logo} 
-                                    loading="lazy"
-                                    alt="Logo"
-                                    />
+                                    <Link to = "/">
+                                        <img src={logo}  loading="lazy" alt="Logo" />
+                                    </Link>
                                 </div>
                             </div>
                             <div className = "footerColumn textAlign-Left">
@@ -26,14 +24,16 @@ function Footer () {
                             </div>
                             <div className = "footerColumn textAlign-Left">
                                 <div className = "textSizeS">Explore</div>
-                                <div className = "textSizeXS">Home</div>
+                                <Link to = "/" className = "footerElem textColor-Secondary textSizeXS">
+                                    Home
+                                </Link>
                                 <div className = "textSizeXS">Discover</div>
                                 <div className = "textSizeXS">Plan Trip</div>
                             </div>
                             <div className = "footerColumnLast">
                                 <div className = "textSizeS">Save your travel inspirations</div>
                                 <div className = "paddingS"></div>
-                                <XSmallButton href = 'somewhere.com' buttonText= 'Sign Up' backgroundColor= 'var(--primary-100)' />
+                                <XSmallButton href = '/SignUp' buttonText= 'Sign Up' backgroundColor= 'var(--primary-100)' />
                             </div>
                         </div>
                     </div>

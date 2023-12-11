@@ -32,6 +32,10 @@
     
 }
 
+.footerElem {
+    text-decoration: none;
+}
+
 .footerColumnLast {
     width: 35%;
     height: 10vw;

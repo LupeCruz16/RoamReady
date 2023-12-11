@@ -1,9 +1,9 @@
-.loginSection {
+.signUpSection {
     width: 100%;
     height: 100vh;
 }
 
-.loginContent {
+.signUpContent {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,25 +11,25 @@
     gap: 10vw;
 }
 
-.loginPlaneImg {
+.SignUpPlaneImg {
     object-fit: cover;
     width: 40vw;
     height: 40vw;
     border-radius: 0.5vw;
 }
 
-.login {
+.signUp {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 3vw;
 }
 
-.loginButton {
+.createAccountButton {
     width: 25vw;
     display: grid;
 }
 
-.registerNowLink {
-    color: var(--text-100)
+.loginLink {
+    color: var(--text-100);
 }

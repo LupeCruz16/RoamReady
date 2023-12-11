@@ -1,4 +1,5 @@
 import './login.css'
+import { Link } from 'react-router-dom';
 import LoginPlane from '../../assets/images/loginPlane.jpg'
 import InputField from './../../components/InputField.js'
 import SmallButton from './../../components/Buttons/SmallButton.js'
@@ -17,11 +18,16 @@ function Login () {
                                 <InputField inputHeader = "Email" placeHolderText = "Email or Username"/>
                                 <InputField inputHeader = "Password" placeHolderText = "Password"/>
                                 <div className = "loginButton">
-                                    <SmallButton href = "tbd.com" buttonText = "LOG IN NOW" backgroundColor = 'var(--bg-200)'/>
+                                    <SmallButton href = "tbd.com" buttonText = "Log In" backgroundColor = 'var(--bg-200)'/>
                                 </div>
                                 <div>
                                     <div className = "paddingXS"></div>
-                                    <div className = "textSizeS textAlign-Left">Not a member yet? <strong>Register now</strong></div>
+                                    <div className = "textSizeS textAlign-Left">
+                                        Not a member yet?&nbsp;
+                                        <Link to = "/SignUp" className = "registerNowLink">
+                                            <strong>Register now</strong>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>

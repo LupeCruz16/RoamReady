@@ -16,10 +16,9 @@ function Navigation () {
                                     <img src={logo}  loading="lazy" alt="Logo" />
                                 </Link>
                             </div>
-                            <a href="#explore"
-                            className = "navTextElement textSizeS"
-                            >Home
-                            </a>
+                            <Link to = "/" className = "navTextElement textSizeS">
+                                Home
+                            </Link>
                             <a href="#plan"
                             className = "navTextElement textSizeS"
                             >Discover
@@ -33,10 +32,9 @@ function Navigation () {
                             <Link to = "/Login" className = "navTextElement textSizeS">
                                 Login
                             </Link>
-                            <a href="#signup"
-                            className = "navTextElement textSizeS signUpText"
-                            >Sign&nbsp;Up
-                            </a>
+                            <Link to = "/SignUp" className = "navTextElement textSizeS signUpText">
+                                Sign&nbsp;Up
+                            </Link>
                         </div>
                     </div>
                 </div>
