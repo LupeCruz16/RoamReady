@@ -19,11 +19,7 @@ function Recommendations () {
                                     <div className="overlay">
                                         <div className="textSizeS textColor-Secondary">Ontario, Canada</div>
                                         <div className = "paddingS"></div>
-                                        <XSmallButton 
-                                        href = 'somewhere.com'
-                                        buttonText= 'Explore'
-                                        backgroundColor= 'var(--primary-300)'
-                                        />
+                                        <XSmallButton href = 'somewhere.com' buttonText= 'Explore' backgroundColor= 'var(--primary-300)' />
                                     </div>
                                 </div>
                                 <div className = "recommendation">
@@ -43,11 +39,7 @@ function Recommendations () {
                                     <div className="overlay">
                                         <div className="textSizeS textColor-Secondary">Santorini, Greece</div>
                                         <div className = "paddingS"></div>
-                                        <XSmallButton 
-                                        href = 'somewhere.com'
-                                        buttonText= 'Explore'
-                                        backgroundColor= 'var(--primary-300)'
-                                        />
+                                        <XSmallButton href = 'somewhere.com' buttonText= 'Explore' backgroundColor= 'var(--primary-300)'/>
                                     </div>
                                 </div>
                             </div>

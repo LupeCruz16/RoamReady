@@ -1,64 +1,51 @@
 .recommendationsSection {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .recommendationContent {
-    width: 100%;
+  width: 100%;
 }
 
 .recommendationsList {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5vw;
 }
 
 .recommendation {
-    width: 20vw;
-    position: relative;
+  width: 20vw;
+  position: relative;
 }
 
 .recImage {
-    object-fit: cover;
-    width: 20vw;
-    height: 40vw;
-    border-radius: 0.5vw;
+  object-fit: cover;
+  width: 20vw;
+  height: 40vw;
+  border-radius: 0.5vw;
 }
 
 .overlay {
-    position: absolute;
-    width: 20vw;
-    height: 40vw;
-    border-radius: 0.5vw;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+  position: absolute;
+  width: 20vw;
+  height: 40vw;
+  border-radius: 0.5vw;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
   
-  .overlayButton {
-    padding: 10px 20px;
-    border: none;
-    background-color: #fff;
-    color: #000;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .overlayButton:hover {
-    background-color: #ddd; /* Button color changes on hover */
-  }
-  
-  .recommendation:hover .overlay {
-    opacity: 1; /* Overlay becomes visible when recommendation is hovered */
-  }
+.recommendation:hover .overlay {
+  opacity: 1;
+}

@@ -12,11 +12,7 @@ function HeroSection () {
                                 Randomize your next travel getaway
                             </div>
                             <div className = "paddingS"></div>
-                            <SmallButton 
-                            href = 'somewhere.com'
-                            buttonText = 'Get Started'
-                            backgroundColor = 'var(--primary-100)'
-                            />
+                            <SmallButton href = 'somewhere.com' buttonText = 'Get Started' backgroundColor = 'var(--primary-100)' />
                         </div>
                     </div>
                 </div>               

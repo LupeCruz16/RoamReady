@@ -33,11 +33,7 @@ function Footer () {
                             <div className = "footerColumnLast">
                                 <div className = "textSizeS">Save your travel inspirations</div>
                                 <div className = "paddingS"></div>
-                                <XSmallButton 
-                                href = 'somewhere.com'
-                                buttonText= 'Sign Up'
-                                backgroundColor= 'var(--primary-100)'
-                                />
+                                <XSmallButton href = 'somewhere.com' buttonText= 'Sign Up' backgroundColor= 'var(--primary-100)' />
                             </div>
                         </div>
                     </div>
