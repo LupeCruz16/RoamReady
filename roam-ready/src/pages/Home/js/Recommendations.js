@@ -2,6 +2,7 @@ import '../css/recommendations.css'
 import canada from '../../../assets/images/canada.jpg'
 import italy from '../../../assets/images/italy.jpg'
 import greece from '../../../assets/images/greece.webp'
+import XSmallButton from '../../../components/Buttons/XSmallButton.js'
 
 function Recommendations () {
     return (
@@ -18,20 +19,36 @@ function Recommendations () {
                                     <div className="overlay">
                                         <div className="textSizeS textColor-Secondary">Ontario, Canada</div>
                                         <div className = "paddingS"></div>
-                                        <button className="overlayButton">Explore</button>
+                                        <XSmallButton 
+                                        href = 'somewhere.com'
+                                        buttonText= 'Explore'
+                                        backgroundColor= 'var(--primary-300)'
+                                        />
                                     </div>
                                 </div>
                                 <div className = "recommendation">
-                                    <img src = {italy} 
-                                    className = "recImage"
-                                    loading = "lazy"
-                                    alt = "Italy"/>
+                                    <img src = {italy} className = "recImage" loading = "lazy" alt = "Italy"/>
+                                    <div className="overlay">
+                                        <div className="textSizeS textColor-Secondary">Milan, Italy</div>
+                                        <div className = "paddingS"></div>
+                                        <XSmallButton 
+                                        href = 'somewhere.com'
+                                        buttonText= 'Explore'
+                                        backgroundColor= 'var(--primary-300)'
+                                        />
+                                    </div>
                                 </div>
                                 <div className = "recommendation">
-                                    <img src = {greece} 
-                                    className = "recImage"
-                                    loading = "lazy"
-                                    alt = "Gereece"/>
+                                    <img src = {greece} className = "recImage" loading = "lazy" alt = "Gereece"/>
+                                    <div className="overlay">
+                                        <div className="textSizeS textColor-Secondary">Santorini, Greece</div>
+                                        <div className = "paddingS"></div>
+                                        <XSmallButton 
+                                        href = 'somewhere.com'
+                                        buttonText= 'Explore'
+                                        backgroundColor= 'var(--primary-300)'
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
