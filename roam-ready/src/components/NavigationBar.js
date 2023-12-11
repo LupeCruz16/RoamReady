@@ -2,6 +2,7 @@ import '../globalCSS/constants.css'
 import '../globalCSS/common.css'
 import './navigation.css'
 import logo from '../assets/images/Logo2.png'
+import { Link } from 'react-router-dom';
 
 function Navigation () {
     return (
@@ -11,12 +12,9 @@ function Navigation () {
                     <div className="navContent">
                         <div className="navContent-Left">
                             <div className = "imageWrapper">
-                                <img
-                                href = "#home"
-                                src={logo} 
-                                loading="lazy"
-                                alt="Logo"
-                                />
+                                <Link to = "/">
+                                    <img src={logo}  loading="lazy" alt="Logo" />
+                                </Link>
                             </div>
                             <a href="#explore"
                             className = "navTextElement textSizeS"
@@ -32,10 +30,9 @@ function Navigation () {
                             </a>
                         </div>
                         <div className = "navContent-Right">
-                            <a href="#login"
-                            className = "navTextElement textSizeS"
-                            >Login
-                            </a>
+                            <Link to = "/Login" className = "navTextElement textSizeS">
+                                Login
+                            </Link>
                             <a href="#signup"
                             className = "navTextElement textSizeS signUpText"
                             >Sign&nbsp;Up
