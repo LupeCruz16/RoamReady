@@ -1,7 +1,12 @@
 import SmallButton from '../../../components/Buttons/SmallButton.js'
 import '../css/gettingStarted.css'
+import getRandomCountry from '../../../logic/randomCity.js';
 
 function GettingStarted () {
+    const handleRandomizeClick = () => {
+        const randomCountry = getRandomCountry();
+        console.log(randomCountry);
+    };
     return (
         <div className = "gettingStartedSection backgroundColor-Secondary">
             <div className = "svgIcon">
@@ -29,9 +34,9 @@ function GettingStarted () {
                             <div className = "textSizeL textColor-Secondary">Let's Get Started</div>
                             <div className = "paddingXS"></div>
                             <SmallButton 
-                            href = 'somewhere.com'
-                            buttonText= 'Randomize my trip'
-                            backgroundColor= 'var(--primary-200)'
+                                buttonText= 'Randomize my trip'
+                                backgroundColor= 'var(--primary-200)'
+                                onClick={handleRandomizeClick}
                             />
                         </div>
                     </div>

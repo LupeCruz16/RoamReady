@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function XSmallButton({ href, buttonText, backgroundColor }) {
+function XSmallButton({ href, buttonText, backgroundColor, onClick }) {
     const buttonStyle = {
         backgroundColor: backgroundColor,
         textDecoration: 'none',
@@ -16,10 +16,14 @@ function XSmallButton({ href, buttonText, backgroundColor }) {
       };
 
     return (
-      <div style = {buttonStyle}>
-        <Link to = {href} rel="noopener noreferrer" style = { linkStyle } >
-          <div className="textSizeXS textColor-Secondary">{buttonText}</div>
-        </Link>
+      <div style={buttonStyle} onClick={onClick}>
+          {href ? (
+              <Link to={href} rel="noopener noreferrer" style={linkStyle}>
+                <div className="textSizeS textColor-Secondary">{buttonText}</div>
+              </Link>
+          ) : (
+              <div className="textSizeS textColor-Secondary">{buttonText}</div>
+          )}
       </div>
     );
   }
