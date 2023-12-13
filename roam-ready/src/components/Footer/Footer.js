@@ -19,7 +19,9 @@ function Footer () {
                             </div>
                             <div className = "footerColumn textAlign-Left">
                                 <div className = "textSizeS">Support</div>
-                                <Link to = "/Account" className = "textSizeXS">My Account</Link>
+                                <Link to = "/Account" className = "footerElem textColor-Secondary textSizeXS">
+                                    My Account
+                                </Link>
                                 <div className = "textSizeXS">Contact Us</div>
                                 <div className = "textSizeXS">FAQ</div>
                             </div>
@@ -28,7 +30,9 @@ function Footer () {
                                 <Link to = "/" className = "footerElem textColor-Secondary textSizeXS">
                                     Home
                                 </Link>
-                                <div className = "textSizeXS">Discover</div>
+                                <Link to = "/Discover" className = "footerElem textColor-Secondary textSizeXS">
+                                    Discover
+                                </Link>
                                 <div className = "textSizeXS">Plan Trip</div>
                             </div>
                             <div className = "footerColumnLast">

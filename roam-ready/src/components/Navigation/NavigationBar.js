@@ -19,10 +19,9 @@ function Navigation () {
                             <Link to = "/" className = "navTextElement textSizeS">
                                 Home
                             </Link>
-                            <a href="#plan"
-                            className = "navTextElement textSizeS"
-                            >Discover
-                            </a>
+                            <Link to = "/Discover"className = "navTextElement textSizeS">
+                                Discover
+                            </Link>
                             <a href="#discover"
                             className = "navTextElement textSizeS"
                             >Plan&nbsp;Trip
