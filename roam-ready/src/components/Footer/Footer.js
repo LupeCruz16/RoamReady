@@ -1,7 +1,7 @@
-import '../css/footer.css'
+import './footer.css'
 import { Link } from 'react-router-dom';
-import XSmallButton from '../../../components/Buttons/XSmallButton.js'
-import logo from '../../../assets/images/Logo2.png'
+import XSmallButton from '../Buttons/XSmallButton.js'
+import logo from '../../assets/images/Logo2.png'
 
 function Footer () {
     return (
@@ -19,6 +19,7 @@ function Footer () {
                             </div>
                             <div className = "footerColumn textAlign-Left">
                                 <div className = "textSizeS">Support</div>
+                                <Link to = "/Account" className = "textSizeXS">My Account</Link>
                                 <div className = "textSizeXS">Contact Us</div>
                                 <div className = "textSizeXS">FAQ</div>
                             </div>

@@ -4,7 +4,7 @@ import SignUpPlane from '../../assets/images/signupPlane.jpg'
 import InputField from './../../components/InputField.js'
 import SmallButton from './../../components/Buttons/SmallButton.js'
 
-function SignUp () {
+function SignUp () {    
     return (
         <div className = "signUpSection">
             <div className = "paddingGlobal">
@@ -20,7 +20,7 @@ function SignUp () {
                                 <InputField inputHeader = "Password*" placeHolderText = "Password"/>
                                 <InputField inputHeader = " Confirm Password*" placeHolderText = "Confirm Password"/>
                                 <div className = "createAccountButton">
-                                    <SmallButton href = "tbd.com" buttonText = "Create Account" backgroundColor = 'var(--bg-200)'/>
+                                    <SmallButton type = "submit" buttonText = "Create Account" backgroundColor = 'var(--bg-200)'/>
                                 </div>  
                                 <div>
                                     <div className = "paddingXS"></div>

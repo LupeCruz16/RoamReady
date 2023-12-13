@@ -1,7 +1,7 @@
-import Navigation from '../../../components/NavigationBar.js';
+import Navigation from '../../../components/Navigation/NavigationBar.js';
 import HeroSection from './HeroSection.js';
 import OurMission from './OurMission.js';
-import Footer from './Footer.js';
+import Footer from '../../../components/Footer/Footer.js';
 import GettingStarted from './GettingStarted.js'
 import Recommendations from './Recommendations.js';
 

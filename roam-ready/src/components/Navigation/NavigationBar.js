@@ -1,7 +1,7 @@
-import '../globalCSS/constants.css'
-import '../globalCSS/common.css'
+import '../../globalCSS/constants.css'
+import '../../globalCSS/common.css'
 import './navigation.css'
-import logo from '../assets/images/Logo2.png'
+import logo from '../../assets/images/Logo2.png'
 import { Link } from 'react-router-dom';
 
 function Navigation () {
