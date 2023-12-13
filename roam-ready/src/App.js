@@ -5,7 +5,7 @@ import Home from './pages/Home/js/Home.js';
 import Login from './pages/Login/Login.js';
 import SignUp from './pages/SignUp/SignUp.js';
 import Account from './pages/Account/Account.js'
-import Discover from './pages/Discover/Discover.js'
+import Discover from './pages/Discover/js/Discover.js'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
