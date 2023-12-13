@@ -1,0 +1,21 @@
+.gettingStartedSection {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgIcon {
+    width: 40vw;
+    height: 5vw;
+}
+
+.gettingStartedContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relaitve;
+    z-index: 1;
+    margin-bottom: 5vw;
+}

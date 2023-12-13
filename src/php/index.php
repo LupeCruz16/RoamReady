@@ -25,7 +25,7 @@ session_start();
                 echo '<a href="logout.php" class="signin-btn">Log Out</a>';
             } else {
                 // If the user is not logged in, show a Sign In button
-                echo '<a href="signIn.php" class="signin-btn">Sign In</a>';
+                echo '<a href="test.php" class="signin-btn">Sign In</a>';
             }
             ?>
         </div>
