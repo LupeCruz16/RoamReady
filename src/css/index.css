@@ -1,0 +1,226 @@
+body {
+    font-family: var(--font-primary), var(--font-secondary);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: var(--bg-300);
+}
+
+.nav-links,
+.signin {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--text-100);
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 20px 0;
+    height: 650px;
+    position: relative;
+}
+
+.image-container {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Ensure it stays in the background */
+}
+
+.overlay {
+    background-color: rgba(248, 248, 248, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header h1 {
+    font-size: 42px;
+    z-index: 1; /* Ensure text is above the overlay */
+    position: relative;
+}
+
+.locationInput {
+    width: 60%;
+    padding: 10px; 
+    font-size: 16px; 
+    z-index: 1; /* Ensure input is above the overlay */
+    position: relative;
+}
+
+.travelButton, .next-adventure-start-button, .subscribeButton{
+    background-color: var(--primary-100); 
+    color: var(--primary-300);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.travelButton:hover, .next-adventure-start-button:hover, .subscribeButton:hover {
+    background-color: var(--primary-300);
+    color: var(--text-100);
+}
+
+.signin a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--primary-300);
+    font-weight: bold;
+}
+
+.signin-btn {
+    padding: 5px 15px;
+    background-color: var(--primary-100);
+    border-radius: 5px;
+}
+
+.suggested-locations {
+    background-color: var(--bg-100);
+    text-align: center;
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination {
+    flex: 1;
+    margin: 20px;
+    padding: 30px;
+    background-color: var(--bg-200);
+    border: 1px solid var(--bg-200);
+    width: 25%;
+    border-radius: 30px;
+}
+
+.destination img {
+    width: 100%;
+    height: 600px;
+}
+
+.next-adventure, .social-network{
+    background-color: var(--bg-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-adventure-table{
+    background-color: var(--bg-200);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.next-adventure-content{
+    text-align: center;
+    padding: 30px;
+}
+
+.next-adventure-content h1{
+    font-size: 42px;
+}
+
+.next-adventure-learn-more-button{
+    background-color: var(--primary-300); 
+    color: var(--text-100);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.next-adventure-learn-more-button:hover {
+    background-color: var(--primary-100);
+    color: var(--primary-300);
+}
+
+.next-adventure-img {
+    max-width: 10%;
+    height: auto;
+}
+
+.info-section, .social-network{
+    background-color: var(--bg-100);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.info-section-column, .social-network-col2 {
+    flex: 1;
+    text-align: center;
+    padding: 20px; 
+}
+
+.social-network-col1 {
+    padding-left: 10%;
+}
+
+.social-network-col2 {
+    padding-right: 12%;
+}
+
+.social-network-col3 {
+    padding-right: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .info-section, .social-network {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-section-column, .social-network-col {
+        width: 100%;
+        text-align: left;
+        padding: 2% 0;
+    }
+}
+
+.emailInput {
+    width: 60%;
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+.facebook-logo, .instagram-logo, .twitter-logo {
+    padding-right: 5px;
+}
+
+.footer{
+    background-color: var(--bg-100);
+    padding: 20px 0;
+}
+
+.copyright{
+    background-color: var(--bg-100);
+    text-align: center;
+    padding: 20px 0;
+}
