@@ -1,5 +1,6 @@
 import '../css/discoverHero.css'
 import SmallButton from '../../../components/Buttons/SmallButton.js'
+import { Link } from 'react-router-dom';
 
 function DiscoverHero () {
     return (
@@ -12,7 +13,9 @@ function DiscoverHero () {
                                 Discover your next adventure
                             </div>
                             <div className = "paddingS"></div>
-                            <SmallButton href = 'somewhere.com' buttonText = 'Click for inspirtation' backgroundColor = 'var(--primary-100)' />
+                            <Link to = "/Explore">
+                                <SmallButton buttonText = 'Click for inspirtation' backgroundColor = 'var(--primary-100)' />
+                            </Link>
                         </div>
                     </div>
                 </div>

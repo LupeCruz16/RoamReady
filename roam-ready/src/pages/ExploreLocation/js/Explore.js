@@ -1,21 +1,23 @@
 import '../../../globalCSS/constants.css'
 import '../../../globalCSS/common.css'
 import Navigation from '../../../components/Navigation/NavigationBar.js';
-import DiscoverHero from "./DiscoverHero.js";
-import HowItWorks from './HowItWorks.js';
+import ExploreHero from "./ExploreHero.js";
+import LocationNavBar from './LocationNavBar.js';
+import LocationlikesSec from './LocationLikesSec.js';
 import Footer from '../../../components/Footer/Footer.js';
 
-function Discover () {
+function Explore () {
     return (
         <div className = "App">
         <main className = "App-main">
             <Navigation />
-            <DiscoverHero />
-            <HowItWorks />
+            <ExploreHero />
+            <LocationNavBar />
+            <LocationlikesSec />
             <Footer />
         </main>
         </div>
     );
 }
 
-export default Discover;
+export default Explore;

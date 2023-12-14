@@ -1,0 +1,10 @@
+.locationNavBarContent {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    position: relative;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    gap: 4vw;
+}

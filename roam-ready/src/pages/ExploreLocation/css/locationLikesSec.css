@@ -1,0 +1,52 @@
+.locationLikesSection {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationLikesSectionContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.likeOverlayContainer {
+    position: relative;
+    width: 100%;
+}
+
+.locationRecImg {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 5%;
+    display: block;
+}
+
+.locationRecSvg {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.likeContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--text-200);
+    border-radius: 100%;
+    width: 4vw;
+    height: 4vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+}
+
+.moreArrow {
+    width: 5vw;
+}
+
+.ArrowSvg {
+    align-items: center;
+    justify-content: center;
+}
