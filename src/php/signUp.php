@@ -25,12 +25,13 @@
             <button type="submit" class = "textSizeXS darkButton">Sign Up</button>
             <div class = "paddingS"></div>
             <p class = "textSizeXS">Have an account? <a href="signIn.php" class = "textSizeXS">Log in</a></p>
+            <div class = "paddingXS"></div>
         </form>
 
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (empty($_POST['email']) || empty($_POST['password']) || empty($_POST['confirmPassword']) || $_POST['password'] != $_POST['confirmPassword']) {
-                echo "<p>Invalid input. Please make sure all fields are filled correctly.</p>";
+                echo "<div class = 'paddingS'></div><p class = 'textSizeS'>Invalid input. Please make sure all fields are filled correctly.</p>";
             } else {
                 $email = $_POST['email'];
                 $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
@@ -43,7 +44,7 @@
                 $stmt = $pdo->prepare("SELECT * FROM $tableName WHERE email = :email");
                 $stmt->execute(['email' => $email]);
                 if ($stmt->fetch()) {
-                    echo "<p>Email already registered. Please use a different email.</p>";
+                    echo "<div class = 'paddingS'></div><p class = 'textSizeS'>Email already registered. Please use a different email.</p>";
                 } else {
                     // Insert new user
                     $stmt = $pdo->prepare("INSERT INTO $tableName (firstName, lastName, email, password_hash) VALUES (:firstName, :lastName, :email, :password)");
@@ -53,7 +54,7 @@
                         'email' => $email,
                         'password' => $password
                     ]);
-                    echo "<p>Registration successful. <a href='signIn.php'>Sign in</a></p>";
+                    echo "<div class = 'paddingS'></div><p class = 'textSizeS'>Registration successful. <a href='signIn.php'>Sign in</a></p>";
                 }
 
                 $pdo = null;

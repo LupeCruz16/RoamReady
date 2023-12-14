@@ -45,13 +45,21 @@ session_start();
                                 // If the user is logged in, show a Log Out button
                                 echo '<a href="logout.php" class="signin-btn navTextElement textSizeS">Log Out</a>';
                             } else {
-                                // If the user is not logged in, show a Sign In button
+                                // If the user is not logged in, show a Log In button
                                 echo '<a href="signIn.php" class="signin-btn navTextElement textSizeS">Log In</a>';
                             }
                             ?>
-                            <a href="signUp.php" class = "navTextElement textSizeS signUpText">
-                                Sign&nbsp;Up
-                            </a>
+                            <div class = "navTextElement textSizeS signUpText">
+                                <?php
+                                if (isset($_SESSION['user_id'])) {
+                                    // If the user is logged in, show My Account
+                                    echo '<a href="account.php" class = "navTextElement textSizeS signUpText"">My Account</a>';
+                                } else {
+                                    // If the user is not logged in, show Sign Up
+                                    echo '<a href="signUp.php" class = "navTextElement textSizeS signUpText"> Sign&nbsp;Up </a>';
+                                }
+                                ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,6 +187,7 @@ session_start();
                                 <div class = "textSizeS">Support</div>
                                 <div class = "textSizeXS">Contact Us</div>
                                 <div class = "textSizeXS">FAQ</div>
+                                <a class = "textSizeXS footerElem textColor-Secondary" href = "account.php">My Account</a>
                             </div>
                             <div class = "footerColumn textAlign-Left">
                                 <div class = "textSizeS">Explore</div>
@@ -191,7 +200,7 @@ session_start();
                             <div class = "footerColumnLast">
                                 <div class = "textSizeS">Save your travel inspirations</div>
                                 <div class = "paddingS"></div>
-                                <button class = "textSizeXS darkButton">Sign Up</button>
+                                <button class = "textSizeXS darkButton" href = "signUp.php">Sign Up</button>
                             </div>
                         </div>
                     </div>

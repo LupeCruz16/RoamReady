@@ -14,15 +14,16 @@ session_start();
     <div class="container">
         <div class="form-container">
             <form id="signInForm" action="signIn.php" method="post">
-                <h2 class = "textSizeM">Sign In</h2>
+                <h2 class = "textSizeM">Log In</h2>
                 <div class = "paddingXS"></div>
                 <input type="email" class = "textSizeXS" name="email" placeholder="Email" required>
                 <div class = "paddingXS"></div>
                 <input type="password" class = "textSizeXS" class = "textSizeXS" name="password" placeholder="Password" required>
                 <div class = "paddingXS"></div>
-                <button type="submit" class = "textSizeXS darkButton">Sign In</button>
+                <button type="submit" class = "textSizeXS darkButton">Log In</button>
                 <div class = "paddingS"></div>
                 <p class = "textSizeXS">Don't have an account? <a href="signUp.php" class = "textSizeXS">Sign up</a></p>
+                <div class = "paddingXS"></div>
             </form>
 
             <?php
@@ -47,10 +48,10 @@ session_start();
                             header("Location: index.php"); // Redirect to index.php
                             exit();
                         } else{
-                            echo "<p>Invalid password. Please try again.</p>";
+                            echo "<div class = 'paddingS'></div><p class = 'textSizeS'>Invalid password. Please try again.</p>";
                         }
                     } else {
-                        echo "<p>Email not found. Please try again or sign up.</p>";
+                        echo "<div class = 'paddingS'></div><p class = 'textSizeS'>Email not found. Please try again or sign up.</p>";
                     }
 
                     $pdo = null;
