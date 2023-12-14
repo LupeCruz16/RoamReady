@@ -149,7 +149,7 @@ session_start();
                                 <div class = "recommendation">
                                     <img src = "../images/canada.jpg" class = "recImage" loading = "lazy" alt = "Canada"/>
                                     <div class="overlay">
-                                        <div class="textSizeS textColor-Secondary">Ontario, Canada</div>
+                                        <div class="textSizeS textColor-Secondary">Canada</div>
                                         <div class = "paddingS"></div>
                                         <a href = "explore.php">
                                             <button class = "textSizeXS lightButton">Explore</button>
@@ -159,7 +159,7 @@ session_start();
                                 <div class = "recommendation">
                                     <img src = "../images/italy.jpg" class = "recImage" loading = "lazy" alt = "Italy"/>
                                     <div class="overlay">
-                                        <div class="textSizeS textColor-Secondary">Milan, Italy</div>
+                                        <div class="textSizeS textColor-Secondary">Italy</div>
                                         <div class = "paddingS"></div>
                                         <a href = "explore.php">
                                             <button class = "textSizeXS lightButton">Explore</button>
@@ -169,7 +169,7 @@ session_start();
                                 <div class = "recommendation">
                                     <img src = "../images/greece.webp" class = "recImage" loading = "lazy" alt = "Gereece"/>
                                     <div class="overlay">
-                                        <div class="textSizeS textColor-Secondary">Santorini, Greece</div>
+                                        <div class="textSizeS textColor-Secondary">Greece</div>
                                         <div class = "paddingS"></div>
                                         <a href = "explore.php">
                                             <button class = "textSizeXS lightButton">Explore</button>
