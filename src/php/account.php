@@ -132,22 +132,24 @@ if (isset($_SESSION['user_id'])) {
                             </div>
                             <div class = "footerColumn textAlign-Left">
                                 <div class = "textSizeS">Support</div>
+                                <a class = "textSizeXS footerElem textColor-Secondary" href = "account.php">My Account</a>
                                 <div class = "textSizeXS">Contact Us</div>
                                 <div class = "textSizeXS">FAQ</div>
-                                <a class = "textSizeXS footerElem textColor-Secondary" href = "account.php">My Account</a>
                             </div>
                             <div class = "footerColumn textAlign-Left">
                                 <div class = "textSizeS">Explore</div>
                                 <a href="index.php" class = "footerElem textColor-Secondary textSizeXS">
                                     Home
                                 </a>
-                                <div class = "textSizeXS">Discover</div>
+                                <a class = "textSizeXS footerElem textColor-Secondary" href = "discover.php">Discover</a>
                                 <div class = "textSizeXS">Plan Trip</div>
                             </div>
                             <div class = "footerColumnLast">
                                 <div class = "textSizeS">Save your travel inspirations</div>
                                 <div class = "paddingS"></div>
-                                <button class = "textSizeXS darkButton" href = "signUp.php">Sign Up</button>
+                                <a href = "signUp.php">
+                                    <button class = "textSizeXS darkButton" href = "signUp.php">Sign Up</button>
+                                </a>
                             </div>
                         </div>
                     </div>

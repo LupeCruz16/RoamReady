@@ -29,9 +29,8 @@ session_start();
                             <a href="index.php" class = "navTextElement textSizeS">
                                 Home
                             </a>
-                            <a href="#plan"
-                            class = "navTextElement textSizeS"
-                            >Discover
+                            <a href="discover.php" class = "navTextElement textSizeS">
+                            Discover
                             </a>
                             <a href="#discover"
                             class = "navTextElement textSizeS"
@@ -74,7 +73,9 @@ session_start();
                                 Randomize your next travel getaway
                             </div>
                             <div class = "paddingS"></div>
-                            <button class = "textSizeS darkButton">Get Started</button>
+                            <a href = "explore.php">
+                                <button class = "textSizeS darkButton">Get Started</button>
+                            </a>
                         </div>
                     </div>
                 </div>               
@@ -129,7 +130,9 @@ session_start();
                         <div class = "gettingStartedContent ">
                             <div class = "textSizeL textColor-Secondary">Let's Get Started</div>
                             <div class = "paddingXS"></div>
-                            <button class = "textSizeS darkButton">Randomize my trip</button>
+                            <a href = "explore.php">
+                                <button class = "textSizeS darkButton">Randomize my trip</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +151,9 @@ session_start();
                                     <div class="overlay">
                                         <div class="textSizeS textColor-Secondary">Ontario, Canada</div>
                                         <div class = "paddingS"></div>
-                                        <button class = "textSizeXS lightButton">Explore</button>
+                                        <a href = "explore.php">
+                                            <button class = "textSizeXS lightButton">Explore</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class = "recommendation">
@@ -156,7 +161,9 @@ session_start();
                                     <div class="overlay">
                                         <div class="textSizeS textColor-Secondary">Milan, Italy</div>
                                         <div class = "paddingS"></div>
-                                        <button class = "textSizeXS lightButton">Explore</button>
+                                        <a href = "explore.php">
+                                            <button class = "textSizeXS lightButton">Explore</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class = "recommendation">
@@ -164,7 +171,9 @@ session_start();
                                     <div class="overlay">
                                         <div class="textSizeS textColor-Secondary">Santorini, Greece</div>
                                         <div class = "paddingS"></div>
-                                        <button class = "textSizeXS lightButton">Explore</button>
+                                        <a href = "explore.php">
+                                            <button class = "textSizeXS lightButton">Explore</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -185,22 +194,24 @@ session_start();
                             </div>
                             <div class = "footerColumn textAlign-Left">
                                 <div class = "textSizeS">Support</div>
+                                <a class = "textSizeXS footerElem textColor-Secondary" href = "account.php">My Account</a>
                                 <div class = "textSizeXS">Contact Us</div>
                                 <div class = "textSizeXS">FAQ</div>
-                                <a class = "textSizeXS footerElem textColor-Secondary" href = "account.php">My Account</a>
                             </div>
                             <div class = "footerColumn textAlign-Left">
                                 <div class = "textSizeS">Explore</div>
                                 <a href="index.php" class = "footerElem textColor-Secondary textSizeXS">
                                     Home
                                 </a>
-                                <div class = "textSizeXS">Discover</div>
+                                <a class = "textSizeXS footerElem textColor-Secondary" href = "discover.php">Discover</a>
                                 <div class = "textSizeXS">Plan Trip</div>
                             </div>
                             <div class = "footerColumnLast">
                                 <div class = "textSizeS">Save your travel inspirations</div>
                                 <div class = "paddingS"></div>
-                                <button class = "textSizeXS darkButton" href = "signUp.php">Sign Up</button>
+                                <a href = "signUp.php">
+                                    <button class = "textSizeXS darkButton" href = "signUp.php">Sign Up</button>
+                                </a>
                             </div>
                         </div>
                     </div>
