@@ -2,19 +2,29 @@
 <html>
 <head>
     <title>Sign Up Page</title>
-    <link rel="stylesheet" type="text/css" href="../css/constant.css">
     <link rel="stylesheet" type="text/css" href="../css/signUp.css">
+    <link rel="stylesheet" type="text/css" href="../css/global/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/global/constant.css">
+    <link rel="stylesheet" type="text/css" href="../css/global/common.css">
 </head>
 <body>
     <div class="container">
         <form id="signUpForm" action="signUp.php" method="post">
-            <h2>Sign Up</h2>
-            <input type="text" name="firstName" placeholder="First Name" required>
-            <input type="text" name="lastName" placeholder="Last Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
-            <button type="submit">Sign Up</button>
+            <h2 class = "textSizeM">Sign Up</h2>
+            <div class = "paddingXS"></div>
+            <input type="text" class = "textSizeXS" name="firstName" placeholder="First Name" required>
+            <div class = "paddingXS"></div>
+            <input type="text" class = "textSizeXS" name="lastName" placeholder="Last Name" required>
+            <div class = "paddingXS"></div>
+            <input type="email" class = "textSizeXS" name="email" placeholder="Email" required>
+            <div class = "paddingXS"></div>
+            <input type="password" class = "textSizeXS" name="password" placeholder="Password" required>
+            <div class = "paddingXS"></div>
+            <input type="password" class = "textSizeXS" name="confirmPassword" placeholder="Confirm Password" required>
+            <div class = "paddingXS"></div>
+            <button type="submit" class = "textSizeXS darkButton">Sign Up</button>
+            <div class = "paddingS"></div>
+            <p class = "textSizeXS">Have an account? <a href="signIn.php" class = "textSizeXS">Log in</a></p>
         </form>
 
         <?php

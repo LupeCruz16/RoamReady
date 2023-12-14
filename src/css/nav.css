@@ -24,6 +24,10 @@
     gap: 2.5vw;
     display: flex;
   }
+
+  .signin-btn {
+    text-decoration: none;
+  }
   
   .imageWrapper {
     flex: 1; 

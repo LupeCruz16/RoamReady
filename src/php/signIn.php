@@ -5,18 +5,24 @@ session_start();
 <html>
 <head>
     <title>Sign In Page</title>
-    <link rel="stylesheet" type="text/css" href="../css/constant.css">
     <link rel="stylesheet" type="text/css" href="../css/signIn.css">
+    <link rel="stylesheet" type="text/css" href="../css/global/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/global/constant.css">
+    <link rel="stylesheet" type="text/css" href="../css/global/common.css">
 </head>
 <body>
     <div class="container">
         <div class="form-container">
             <form id="signInForm" action="signIn.php" method="post">
-                <h2>Sign In</h2>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <button type="submit">Sign In</button>
-                <p>Don't have an account? <a href="signUp.php">Sign up</a></p>
+                <h2 class = "textSizeM">Sign In</h2>
+                <div class = "paddingXS"></div>
+                <input type="email" class = "textSizeXS" name="email" placeholder="Email" required>
+                <div class = "paddingXS"></div>
+                <input type="password" class = "textSizeXS" class = "textSizeXS" name="password" placeholder="Password" required>
+                <div class = "paddingXS"></div>
+                <button type="submit" class = "textSizeXS darkButton">Sign In</button>
+                <div class = "paddingS"></div>
+                <p class = "textSizeXS">Don't have an account? <a href="signUp.php" class = "textSizeXS">Sign up</a></p>
             </form>
 
             <?php

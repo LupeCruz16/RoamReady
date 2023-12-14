@@ -54,7 +54,7 @@
   }
   
   .textSizeS {
-    font-size: 1.5vw;
+    font-size: 15vw;
   }
     
   .textSizeM {
@@ -88,11 +88,12 @@
     .textStyleCaption { letter-spacing: 0.3em; } 
   }
   
+  /* For laptop */
   @media only screen and (min-width: 1000px) {
-    .textSizeXS { font-size: 10px; }
-    .textSizeS { font-size: 14px; }
-    .textSizeM { font-size: 24px; }
-    .textSizeL { font-size: 42px; }
+    .textSizeXS { font-size: 20px; }
+    .textSizeS { font-size: 24px; }
+    .textSizeM { font-size: 36px; }
+    .textSizeL { font-size: 54px; }
     .textStyleCaption { letter-spacing: 0.3em; }
   }
   
@@ -121,4 +122,23 @@
     max-width: 100%;
     display: inline-block;
     }
-    
+  
+.darkButton {
+  color: var(--text-200);
+  background-color: var(--primary-100);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lightButton {
+  color: var(--text-200);
+  background-color: var(--primary-300);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
